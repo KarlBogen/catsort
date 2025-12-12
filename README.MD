@@ -2,11 +2,10 @@
 
 *Getestet mit Shopversionen 3.1.6*
 
-## Beschreibung
-
 <img align="left" src="images/screenshot2.png" width="300">
 
-<br>
+## Beschreibung
+
 Mit diesem Modul können Kategorien per "Drag and Drop" sortiert werden.
 <br>
 Es kann nur innerhalb der Kategorieebene verschoben werden!
