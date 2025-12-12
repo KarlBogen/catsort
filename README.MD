@@ -2,7 +2,8 @@
 
 *Getestet mit Shopversionen 3.1.6*
 
-<img align="left" src="images/screenshot2.png" width="300">
+<img src="images/screenshot2.png" width="300">
+<br>
 
 ## Beschreibung
 
