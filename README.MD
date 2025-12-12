@@ -6,6 +6,7 @@
 
 <img align="left" src="images/screenshot2.png" width="300">
 
+<br>
 Mit diesem Modul können Kategorien per "Drag and Drop" sortiert werden.
 <br>
 Es kann nur innerhalb der Kategorieebene verschoben werden!
