@@ -136,6 +136,18 @@ require(DIR_WS_INCLUDES . 'head.php');
     display: inline-block;
     width: 100px;
   }
+
+  #catList .data {
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+  }
+
+  #catList .data.sortable-chosen {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+  }
 </style>
 </head>
 
