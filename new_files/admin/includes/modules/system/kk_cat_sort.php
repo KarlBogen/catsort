@@ -30,6 +30,7 @@ class kk_cat_sort
     $this->code = 'kk_cat_sort';
     $this->title = MODULE_KK_CAT_SORT_TEXT_TITLE . ' © by <a href="https://github.com/KarlBogen" target="_blank" style="color: #e67e22; font-weight: bold;">Karl</a> - Version: ' . $this->version;
     $this->description = '';
+    $this->description .= '<a class="button btnbox" style="text-align:center;" href="' . xtc_href_link(FILENAME_MODULE_EXPORT, 'set=system&module=' . $this->code . '&action=edit') . '">' . BUTTON_EDIT . '</a><br />';
     $this->description .= '<a class="button btnbox but_red" style="text-align:center;" onclick="return confirmLink(\'' . MODULE_KK_CAT_SORT_DELETE_CONFIRM . '\', \'\' ,this);" href="' . xtc_href_link(FILENAME_MODULE_EXPORT, 'set=system&module=' . $this->code . '&action=custom') . '">' . MODULE_KK_CAT_SORT_DELETE_BUTTON . '</a><br />';
     $this->description .= MODULE_KK_CAT_SORT_TEXT_DESCRIPTION;
     $this->sort_order = defined('MODULE_KK_CAT_SORT_SORT_ORDER') ? MODULE_KK_CAT_SORT_SORT_ORDER : 0;
